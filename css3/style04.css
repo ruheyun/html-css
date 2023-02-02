@@ -1,0 +1,24 @@
+/*demo04中的样式*/
+/*存在id属性的元素，加上背景*/
+a[id]{
+    background: aqua;
+}
+/*id=jjj的元素加上背景色*/
+a[id=jjj]{
+    background: #25a209;
+}
+/*class中有hg的元素，加上背景色*/
+a[class*=hg]{
+    background: #d51708;
+}
+/*href中以http开头的元素加上背景色*/
+a[href^=http]{
+    background: rgba(238,231,33,0.85);
+}
+/*
+=  绝对等于
+*=  包含
+^=  以什么开头
+$=  以什么结尾
+正则表达式都通用
+*/

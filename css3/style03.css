@@ -1,0 +1,19 @@
+/*demo03中的样式*/
+/*body的第一个子元素加上背景*/
+body h1:first-child{
+    background: #e82fdd;
+}
+/*ul的最后一个子元素加上背景*/
+ul li:last-child{
+    background: aqua;
+}
+/*body的第三个子标签*/
+/*选中p元素的父级元素下的第三个元素，并且是当前元素才生效*/
+p:nth-child(3){
+    background: aquamarine;
+}
+/*body的第四个子标签*/
+/*选中p元素的父级元素下的同类型的第二个元素*/
+p:nth-of-type(2){
+    background: #25a209;
+}

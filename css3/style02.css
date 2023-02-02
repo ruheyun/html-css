@@ -1,0 +1,17 @@
+/*demo02中的样式*/
+/*后代选择器*/
+body ul p{
+    background: aqua;
+}
+/*子选择器*/
+body>p{
+    background: #e82fdd;
+}
+/*相邻兄弟选择器*/
+.ss + strong{
+    background: #2e15ff;
+}
+/*通用选择器*/
+.cc~strong{
+    background: rgba(19,162,21,0.98);
+}

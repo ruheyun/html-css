@@ -1,0 +1,21 @@
+/*index中的样式*/
+h2{
+    color: aqua;
+}
+
+/*demo01中的样式*/
+/*标签选择器*/
+p{
+    color: #e82fdd;
+}
+/*类选择器*/
+.ruh{
+    color: #25a209;
+}
+/*id选择器*/
+#yun{
+    color: #2e15ff;
+}
+#ruu{
+    color: #d51708;
+}

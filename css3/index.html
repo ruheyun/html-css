@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+<!-- ①内部样式：html文件中直接使用style标签可以编写css代码，每一个声明使用分号结尾 -->
+    <style>
+        h1{
+            color: #e82fdd;
+        }
+    </style>
+
+<!-- ②外部样式：css单独提出来写一个文件，再使用link标签引入   -->
+    <link rel="stylesheet" href="style01.css">
+
+</head>
+<body>
+
+<h1>我是内部样式</h1>
+
+<h2>我是外部样式</h2>
+
+<!-- ③行内样式：在标签元素中使用style属性编写样式 -->
+<h3 style="color: blueviolet">我是行内样式</h3>
+
+</body>
+</html>
+<!--
+css的优势：
+1. 内容和表现分离
+2. 网页结构表现统一，可以实现复用
+3. 样式十分的丰富
+4. 建议使用独立于html的css文件
+5. 利于SEO，容易被搜索引擎收录！
+
+三种导入样式优先级：
+就近原则，假如本程序中三种样式都作用于h3标签时，优先级为③ > ② > ①
+-->
